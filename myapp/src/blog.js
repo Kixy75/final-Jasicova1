@@ -11,7 +11,7 @@ class blog extends Component {
           <h2>My blog</h2>
           <h3> You can find some stories here </h3>
             <p>
-            Evebody know s when have to make something...
+            Niečo tu bude potom ale teraz ma nič múdre nanapadá :D
 
             </p>
 

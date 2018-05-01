@@ -40,9 +40,6 @@ class Users extends Component {
         return (
             <div>
                 {this.renderUsers()}
-                <Link to="/">
-                    linka na app
-                </Link>
             </div>
         );
     }

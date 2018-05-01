@@ -22,6 +22,7 @@ ReactDOM.render(<BrowserRouter>
         <Route path="/blog" component={blog} />
 
 
+
     </div>
 </BrowserRouter>, document.getElementById('root'));
 registerServiceWorker();

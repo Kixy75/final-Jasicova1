@@ -109,3 +109,21 @@
     background-color: #4CAF50;
     color: white;
 }
+/* Style the footer */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.About {
+  font-size: 40px;
+  text-align: center;
+}

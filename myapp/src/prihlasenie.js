@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import "./prihlasenie.css";
+
 
 class prihlasenie extends Component {
  componentWillMount() {
@@ -42,8 +44,9 @@ class prihlasenie extends Component {
    else
      return (
        <div>
-         <p>Prihlaseny je  {this.state.user}
-         <button onClick={() => this.doLogout()}>Log out</button></p>
+         <p>Prihlásený je  {this.state.user} </p>
+         <button onClick={() => this.doLogout()}>Log out</button>
+
        </div>
      );
  }

@@ -12,6 +12,7 @@ import contact from './contact';
 import blog from './blog';
 
 
+
 ReactDOM.render(<BrowserRouter>
     <div>
         <Route exact path="/" component={App} />
@@ -20,6 +21,9 @@ ReactDOM.render(<BrowserRouter>
         <Route path="/prihlasenie" component={prihlasenie} />
         <Route path="/contact" component={contact} />
         <Route path="/blog" component={blog} />
+      
+
+
 
 
 

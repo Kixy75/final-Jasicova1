@@ -14,6 +14,12 @@ class blog extends Component {
             Niečo tu bude potom ale teraz ma nič múdre nanapadá :D
 
             </p>
+            <p className="article1">
+            </p>
+                <Link to="/Blog/article1">
+                First article
+                </Link>
+
 
           </div>
       );

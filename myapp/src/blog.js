@@ -12,6 +12,7 @@ class blog extends Component {
           <h3> You can find some stories here </h3>
             <p>
             Niečo tu bude potom ale teraz ma nič múdre nanapadá :D
+            Asi návodík ale uvidí sa...
 
             </p>
             <p className="article1">

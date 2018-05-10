@@ -13,10 +13,13 @@ class App extends Component {
         <div class="App">
           <h2>Welcome to my blog</h2>
           <h3>This blog was made for subject IMPL1</h3>
-            <p>
+        <p>
           I ll post there some tips later...
+          <div class="videjko">
+          <p>
           <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing />
-            </p>
+          </p></div>
+         </p>
           </div>
       );
   }

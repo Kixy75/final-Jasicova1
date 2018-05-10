@@ -1,0 +1,8 @@
+.videjko {
+  text-align: center;
+  component: center;
+ ReactPlayer: centered;
+ position: relative;
+ left 50px;
+ padding-left: 50px;
+}

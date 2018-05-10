@@ -10,6 +10,8 @@ import About from './About';
 import prihlasenie from './prihlasenie';
 import contact from './contact';
 import blog from './blog';
+import article1 from './article1';
+
 
 
 
@@ -21,7 +23,8 @@ ReactDOM.render(<BrowserRouter>
         <Route path="/prihlasenie" component={prihlasenie} />
         <Route path="/contact" component={contact} />
         <Route path="/blog" component={blog} />
-      
+        <Route path="/article1" component={article1} />
+
 
 
 

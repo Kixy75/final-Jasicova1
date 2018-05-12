@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import "./Blog.css";
+import "./button.css";
 
 
 class blog extends Component {
@@ -8,23 +8,30 @@ class blog extends Component {
       return (
         <div class="Blog">
 
-          <h2>Môj blog</h2>
-          <h3> Tutoriale </h3>
-            <p>
-          Zdravím Vás na mojom blogu. Rozhodla som že sem hodím ľahký návod ako vytvoriť webappku pomocou reactu podľa predmetu IMPL1
+          <h2>Zdravím Vás na mojom blogu.</h2>
+          <h3> Tutorial s React </h3>
+
+        <p>   Rozhodla som že sem hodím návod ako vytvoriť pwa pomocou reactu podľa predmetu IMPL1
 
             </p>
-            <p className="article1">
-            </p>
-              <p>  <Link to="/article1">
-                Tutorial React časť 1.
-                </Link></p>
-              <p>  <Link to="/article2">
-                Tutorial React časť 2.
-                </Link></p>
+
+
+
+              <form action="/article1">
+                <button type="link" class="btn btn:hover ">Časť 1.</button>
+                </form>
+                <form action="/article2">
+                <button type="link" class="btn btn:hover ">Časť 2.</button>
+                </form>
+                <form action="/article3">
+                <button type="link" class="btn btn:hover ">Časť 3.</button>
+                </form>
+
+
 
 
           </div>
+
       );
   }
 }

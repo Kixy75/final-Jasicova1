@@ -14,6 +14,9 @@
   height: 150px;
   padding: 20px;
   color: white;
+  font-family: Comic Sans MS, cursive, sans-serif
+
+
 }
 
 .App-title {
@@ -127,6 +130,10 @@ img {
     height: auto;
 }
 .About {
+  font-size: 40px;
+  text-align: center;
+}
+.contact {
   font-size: 40px;
   text-align: center;
 }

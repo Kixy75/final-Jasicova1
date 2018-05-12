@@ -6,7 +6,16 @@ import "./About.css";
 class About extends Component {
   render() {
 
- const csvData =[
+    const prettyLink  = {
+     backgroundColor: '#8dc63f',
+     fontSize: 14,
+     fontWeight: 500,
+     height: 52,
+     padding: '0 48px',
+     borderRadius: 5,
+     color: '#fff'
+   };
+   const data = [
    ['firstnam', 'lastname', 'article'] ,
    ['Francesa', 'Zapia' , 'vymyslela'] ,
    ['David', 'Thoreau' , 'walden'] ,
@@ -14,15 +23,19 @@ class About extends Component {
  ];
       return (
           <div class="About">
-          <h2>About Me</h2>
+          <h2>O mne</h2>
 
 <p>
-            Ahoj, moje meno je Kika. Som študentkou druhého ročníka Ekonomickej univerzity. Mám 21 rokov.
-            Som celkom pozitívne stvorenie, ktoré miluje šport, prírodu,umenie a všetko čo mu život dokáže poskytnúť.
-            A dúfam že dám predmet IMPL1 :D
-            </p>
+            Ahojte návštevníci, moje meno je Kika.</p>
+            <p> Som študentkou druhého ročníka Ekonomickej univerzity odboru HI.</p>
+
+          <p>  Momentálne som v druhom ročníku, poprí škole pracujem ako Techsupport a vo volnom čase sa venujem tvorbe dizajnu</p>
+
             <h3> Obľúbené prečítané knihy </h3>
-          <p>  <CSVLink data={csvData} >Zoznam</CSVLink></p>
+
+            <span>
+  <CSVLink data={data} style={prettyLink}>Zoznam ⬇</CSVLink>
+    </span>
 
           </div>
       );

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Route, Link } from 'react-router-dom'
 import people from './people';
 /*import Blog from './Blog'; */
 import About from './About';
@@ -11,6 +11,9 @@ import prihlasenie from './prihlasenie';
 import contact from './contact';
 import blog from './blog';
 import article1 from './article1';
+import article2 from './article2';
+
+
 
 
 
@@ -24,11 +27,7 @@ ReactDOM.render(<BrowserRouter>
         <Route path="/contact" component={contact} />
         <Route path="/blog" component={blog} />
         <Route path="/article1" component={article1} />
-
-
-
-
-
+        <Route path="/article2" component={article2} />
 
     </div>
 </BrowserRouter>, document.getElementById('root'));

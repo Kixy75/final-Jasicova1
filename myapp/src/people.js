@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './people.css';
-import { Link } from 'react-router-dom';
 class Users extends Component {
     componentWillMount() {
         this.setState({users: []});

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import "./article.css";
 
 
@@ -8,21 +7,13 @@ class article2 extends Component {
       return (
 
         <div class="article1">
-          <h2>Webapp react časť 1. </h2>
+          <h2>Webapp react časť 2. </h2>
             <p> Povieme si tu krátky návod ako spraviť webappku pomocou reactu.</p>
-            <p>V prvom rade potrebuejem...
-
-            <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
-
-            <img id="myImage" src="pic_bulboff.gif" style="width:100px"></img>
-
-            <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
-
-          </p>
-
-
-
+            <p>V prvom rade potrebuejem...</p>
+            <img src="about.jpg" alt="Paris" width="100%" height="100%">
+            </img>
           </div>
+
       );
   }
 }

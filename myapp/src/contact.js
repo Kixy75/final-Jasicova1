@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 class contact extends Component {
   render() {
       return (
-          <div>
+        <div class="About">
           <h2>Contact ID</h2>
             <p>
           E-mail:kika.jasicova@gmail.com </p>

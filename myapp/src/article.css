@@ -1,16 +1,16 @@
 .article1 {
-  font-size: 17px;
+  font-size: 15px;
   text-align: center;
   font-style: oblique;
 font-family: Comic Sans MS, cursive, sans-serif
 }
-article2 {
+.article2 {
   font-size: 20px;
   text-align: center;
-;
+
   }
-  articlepoz {
-    font-size: 20px;
+  .articlepoz {
+    font-size: 15px;
     text-align: center;
     font-weight: 900;
     color: red;

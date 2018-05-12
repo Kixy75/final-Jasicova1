@@ -15,18 +15,13 @@ class article1 extends Component {
             <p>1. V prvom rade si potrebujeme založiť účet na githube a tam vytvoriť nový repozitár.</p>
             <p>Stiahneme si text editor v ktorom bude písať našu appku odporúčam atom ktorý nájdete</p>
             <p> <a href="https://atom.io/"> TU </a></p>
-            <p>2. Použiejem skratku windows+r a napíšeme "cmd" otvorí sa nám commander ktorý nám ukazuje práve na akej ceste sa nachádzame. </p>
-            <p>Vytvoríme si pričinok pomocou príkazu "mkrdir" a zadáme meno napr. appka, použijem príkaz cd appka a dostanem sa to adresáru. </p>
+            <p>2. Použiejem skratku windows+r a napíšeme "cmd" otvorí sa nám konzola ktorá nám ukazuje práve na akej ceste sa nachádzame. </p>
+            <p>Vytvoríme si pričinok pomocou príkazu "mkrdir" a zadáme meno napr. appka, použijem príkaz "cd appka" a dostanem sa to adresáru. </p>
             <p>3. Prejdem nazad na github kde mám svoj vytvorený repozitár kliknem na tlačidlo "clone or download" a skopirujem.</p>
-          <p>  Následne prejdem do Commaderu (čierna tabulka) zadam "git clone" a vložím odkaz ktorý sme si skopírovali.
+          <p>  Následne prejdem do konzoli (čierna tabulka) zadam "git clone" a vložím odkaz ktorý sme si skopírovali.
       </p>
-      <p>4. Následne môžeme prejsť k samotnej tvorbe PWA, zadáme nasledovné: </p>
-        <div class="articlepoz">
-        <img src="instal.jpg" alt="Paris" width="1px" height="2px">
-        </img>
-      <p>  "npm install -g create-react-app"</p>
-      <p>"create-react-app pwa-experiment"</p>
-</div>
+
+
 
 
           </div>

@@ -36,9 +36,12 @@ class About extends Component {
 <p>Mám rada šport, malovanie/kreslenie a hru na hudobné nástroje.</p>
             <h3> Obľúbené prečítané knihy </h3>
 
-            <span>
-  <CSVLink data={data} style={prettyLink}>Zoznam ⬇</CSVLink>
-    </span>
+            <CSVLink data={data}
+  filename={"my-file.csv"}
+  className="btn btn-primary"
+  target="_blank">
+    Zoznam↓
+</CSVLink>
 
           </div>
       );

@@ -28,9 +28,12 @@ class About extends Component {
 <p>
             Ahojte návštevníci, moje meno je Kika.</p>
             <p> Som študentkou druhého ročníka Ekonomickej univerzity odboru HI.</p>
-
+            <div class="img2">
+            <img src="octocat.gif" alt="Paris" >
+            </img>
+            </div>
           <p>  Momentálne som v druhom ročníku, poprí škole pracujem ako Techsupport a vo volnom čase sa venujem tvorbe dizajnu</p>
-
+<p>Mám rada šport, malovanie/kreslenie a hru na hudobné nástroje.</p>
             <h3> Obľúbené prečítané knihy </h3>
 
             <span>

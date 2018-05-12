@@ -12,6 +12,7 @@ import contact from './contact';
 import blog from './blog';
 import article1 from './article1';
 import article2 from './article2';
+import article3 from './article3';
 
 
 
@@ -29,6 +30,8 @@ ReactDOM.render(<BrowserRouter>
         <Route path="/blog" component={blog} />
         <Route path="/article1" component={article1} />
         <Route path="/article2" component={article2} />
+        <Route path="/article3" component={article3} />
+
 
     </div>
 </BrowserRouter>, document.getElementById('root'));

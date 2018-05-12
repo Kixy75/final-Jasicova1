@@ -9,7 +9,10 @@ class contact extends Component {
           E-mail:kika.jasicova@gmail.com </p>
           <p>Tel:+421902101134</p>
           <p>Home: Rovná 16A Hlohovec</p>
-
+          <div class="img1">
+          <img src="supportcat.png" alt="Paris" >
+          </img>
+          </div>
           </div>
       );
   }

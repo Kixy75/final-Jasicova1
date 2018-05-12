@@ -23,7 +23,11 @@ class blog extends Component {
                 <form action="/article2">
                 <button type="link" class="btn btn:hover ">Časť 2.</button>
                 </form>
-                
+                <form action="/article3">
+                <button type="link" class="btn btn:hover ">Časť 3.</button>
+                </form>
+
+
 
 
 

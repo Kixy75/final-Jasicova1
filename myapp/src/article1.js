@@ -14,7 +14,7 @@ class article1 extends Component {
             <p> Povieme si tu krátky návod ako spraviť webappku pomocou reactu.</p>
             <p>1. V prvom rade si potrebujeme založiť účet na githube a tam vytvoriť nový repozitár.</p>
             <p>Stiahneme si text editor v ktorom bude písať našu appku odporúčam atom ktorý nájdete</p>
-            <p> <a href="https://atom.io/"> TU </a></p>
+            <p><a href="https://atom.io/"> TU </a></p>
             <p>2. Použiejem skratku windows+r a napíšeme "cmd" otvorí sa nám konzola ktorá nám ukazuje práve na akej ceste sa nachádzame. </p>
             <p>Vytvoríme si pričinok pomocou príkazu "mkrdir" a zadáme meno napr. appka, použijem príkaz "cd appka" a dostanem sa to adresáru. </p>
             <p>3. Prejdem nazad na github kde mám svoj vytvorený repozitár kliknem na tlačidlo "clone or download" a skopirujem.</p>

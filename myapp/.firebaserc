@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "my-app-kixy"
+    "default": "my-app-kixy",
+    "Appka": "my-app-kixy"
   }
 }

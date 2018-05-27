@@ -37,11 +37,13 @@ class About extends Component {
             <h3> Obľúbené prečítané knihy </h3>
 
             <CSVLink data={data}
-  filename={"my-file.csv"}
+  filename={"Moj-zoznam.csv"}
   className="btn btn-primary"
   target="_blank">
     Zoznam↓
 </CSVLink>
+
+
 
           </div>
       );

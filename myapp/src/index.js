@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter, Route, Link } from 'react-router-dom'
+import {Table} from 'react-bootstrap';
+
 import people from './people';
 /*import Blog from './Blog'; */
 import About from './About';
@@ -31,7 +33,6 @@ ReactDOM.render(<BrowserRouter>
         <Route path="/article1" component={article1} />
         <Route path="/article2" component={article2} />
         <Route path="/article3" component={article3} />
-
 
     </div>
 </BrowserRouter>, document.getElementById('root'));

@@ -27,7 +27,7 @@ font-family: Comic Sans MS, cursive, sans-serif
 
       position: absolute;
       top: 600px;
-      left: 850px;
+      left: 300px;
   padding: 5px;
   width: 250px;
     }
@@ -39,3 +39,10 @@ font-family: Comic Sans MS, cursive, sans-serif
   padding: 5px;
   width: 250px;
     }
+    .emailBox {
+      font-size: 15px;
+      text-align: relative;
+    left: 20px;
+      padding-left: 10px;
+
+}

@@ -1,6 +1,12 @@
 .About {
   font-size: 17px;
-  text-align: center;
+  text-align: relative;
   font-family: Comic Sans MS, cursive, sans-serif
 
+}
+.emailBox {
+  font-size: 15px;
+  text-align: relative;
+left: 20px;
+  padding-left: 10px;
 }

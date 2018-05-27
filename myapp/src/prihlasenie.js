@@ -53,6 +53,8 @@ class prihlasenie extends Component {
  render() {
    return <div className="prihlasenie">{this.showLoginForm()}
                 </div>;
+
  }
 }
+
 export default prihlasenie;

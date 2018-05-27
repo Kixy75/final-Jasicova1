@@ -120,10 +120,11 @@
    left: 0;
    bottom: 0;
    width: 100%;
-   text-emphasis-color: #4CAF50;
    background-color: black;
    color: white;
    text-align: center;
+  text-decoration: none
+
 }
 img {
     width: 100%;
@@ -136,4 +137,7 @@ img {
 .contact {
   font-size: 40px;
   text-align: center;
+}
+.footer a{
+  color: white;
 }

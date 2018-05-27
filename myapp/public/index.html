@@ -36,7 +36,7 @@
     messagingSenderId: "312711210208"
   };
   firebase.initializeApp(config);
-  
+  <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
           navigator.serviceWorker.register('service-worker.js').then(function(registration) {
@@ -52,7 +52,9 @@
       } else {
         console.log('service worker is not supported');
       }
+
 </script>
+
   </head>
   <body>
     <img src="panda.jpg" width="460" height="345">
@@ -82,7 +84,7 @@
     -->
 
     <div class="footer">
-      <p>&copy; 2018 Kixy's web| <a href="/contact">Contact</a> | <a href="/Users">Users</a> | <a href="https://www.facebook.com/kika.jasicova">FB</a> |
+      <p>&copy; 2018 Kixy's web|<a href="/contact">Contact</a>|<a href="/Users">Users</a>|<a href="https://www.facebook.com/kika.jasicova">FB</a> |
         <a href="https://github.com/Kixy75">Github</a>
 </p>
 </div>

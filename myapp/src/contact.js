@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./article.css";
 
 class contact extends Component {
   render() {
@@ -13,7 +14,23 @@ class contact extends Component {
           <img src="supportcat.png" alt="Paris" >
           </img>
           </div>
+          <form>
+ <div class="emailBox">
+   <p>Your email address</p>
+   <input id="emailAddress" type="email" size="64" maxLength="64" required
+          placeholder="username@beststartupever.com" pattern=".+@beststartupever.com"
+          title="Please provide only a Best Startup Ever corporate email address"/>
+ </div>
+
+ <div class="messageBox">
+  <p>Request</p>
+   <textarea id="message" cols="80" rows="8" required
+             placeholder="My shoes are too tight, and I have forgotten how to dance."></textarea>
+ </div>
+  <input type="submit" value="Send Request"/>
+</form>
           </div>
+
       );
   }
 }
